@@ -46,13 +46,51 @@ updateCaseCount();
 const imageDialog = document.querySelector('.image-dialog');
 if (imageDialog) {
   let opener;
+  let group = [];
+  let current = 0;
+  const image = imageDialog.querySelector('img');
+  const caption = imageDialog.querySelector('.image-caption');
+  const previous = document.createElement('button');
+  const next = document.createElement('button');
+  const counter = document.createElement('p');
+  previous.type = next.type = 'button';
+  previous.className = 'image-previous image-navigation';
+  next.className = 'image-next image-navigation';
+  previous.textContent = '‹';
+  next.textContent = '›';
+  counter.className = 'image-counter';
+  counter.setAttribute('aria-live', 'polite');
+  imageDialog.append(previous, next, counter);
+  function showImage() {
+    const selected = group[current];
+    if (!selected) return;
+    image.src = selected.dataset.image;
+    image.alt = translate(selected.dataset.caption);
+    caption.textContent = translate(selected.dataset.caption);
+    counter.textContent = `${current + 1} / ${group.length}`;
+    previous.hidden = next.hidden = counter.hidden = group.length < 2;
+    previous.setAttribute('aria-label', translate('이전 사진'));
+    next.setAttribute('aria-label', translate('다음 사진'));
+  }
+  function moveImage(direction) {
+    if (group.length < 2) return;
+    current = (current + direction + group.length) % group.length;
+    showImage();
+  }
+  previous.addEventListener('click', () => moveImage(-1));
+  next.addEventListener('click', () => moveImage(1));
+  imageDialog.addEventListener('keydown', event => {
+    if (!imageDialog.open || !['ArrowLeft', 'ArrowRight'].includes(event.key)) return;
+    event.preventDefault();
+    moveImage(event.key === 'ArrowLeft' ? -1 : 1);
+  });
+  new MutationObserver(showImage).observe(document.documentElement, {attributes:true, attributeFilter:['lang']});
   document.querySelectorAll('.image-open').forEach(button => button.addEventListener('click', () => {
     opener = button;
-    const caption = translate(button.dataset.caption);
-    const image = imageDialog.querySelector('img');
-    image.src = button.dataset.image;
-    image.alt = caption;
-    imageDialog.querySelector('.image-caption').textContent = caption;
+    const card = button.closest('.project-card');
+    group = card ? [...card.querySelectorAll('.image-open')] : [button];
+    current = group.indexOf(button);
+    showImage();
     imageDialog.showModal();
   }));
   imageDialog.querySelector('.image-close').addEventListener('click', () => imageDialog.close());

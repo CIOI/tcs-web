@@ -1,4 +1,6 @@
 window.TCS_TRANSLATIONS = {
+  "이전 사진": "Previous photo",
+  "다음 사진": "Next photo",
   "고객사 이름을 선택하면 홈페이지 또는 Google 지도가 새 창에서 열립니다.": "Select a client to open its website or Google Maps in a new window.",
   "주요 고객사 목록": "Key client directory",
   "홈페이지": "Website",
