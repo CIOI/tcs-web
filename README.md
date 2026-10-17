@@ -25,6 +25,8 @@ python3 scripts/check-site.py
 - Output directory: `.`
 - Install command: empty
 
-GitHub Actions checks JavaScript syntax, local assets and section links on pull requests and pushes to `main`. Once Vercel Git integration is connected, merging into `main` triggers production deployment; other branches receive preview deployments.
+GitHub Actions checks JavaScript syntax, local assets and section links on pull requests and pushes to `main`. Vercel Git integration is connected to `ciois-projects/tcs-web`. Production branch is `main`: merging into `main` triggers production deployment; other branches receive preview deployments.
+
+Project dashboard: https://vercel.com/ciois-projects/tcs-web
 
 The GitHub check and Vercel deployment run independently. A required merge check can be enabled in repository branch rules if desired. Private company research is excluded from Git and deployment output.
