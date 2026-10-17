@@ -52,3 +52,11 @@ document.querySelectorAll('[data-lang]').forEach(button => button.addEventListen
 let savedLanguage;
 try { savedLanguage = localStorage.getItem('tcs-language'); } catch {}
 setLanguage(savedLanguage || 'ko');
+
+const partnersSection = document.querySelector('.partners');
+const partnersToggle = document.querySelector('.partners-toggle');
+partnersToggle.addEventListener('click', () => {
+  const paused = partnersSection.classList.toggle('is-paused');
+  partnersToggle.setAttribute('aria-pressed', String(paused));
+  partnersToggle.querySelector('span').textContent = paused ? '▶' : 'Ⅱ';
+});
