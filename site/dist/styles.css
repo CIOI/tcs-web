@@ -6,3 +6,5 @@
 .email-plain{display:block;border:0;padding:0;font-size:20px;letter-spacing:0;user-select:text;cursor:text}@media(max-width:700px){.email-plain{font-size:18px}}
 
 .email-copy{width:100%;background:none;border-top:0;border-left:0;border-right:0;text-align:left;color:inherit;cursor:pointer;font-family:Arial,sans-serif}.email-copy:hover{color:var(--red)}
+
+.footer-brand{display:block;width:180px;flex-shrink:0}.footer-brand img{display:block;width:100%;filter:grayscale(1) contrast(100);mix-blend-mode:multiply}@media(max-width:700px){.footer-brand{width:135px}}
