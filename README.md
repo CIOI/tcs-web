@@ -52,3 +52,7 @@ by Google, and are not guaranteed by these settings.
 New detail pages are developed on `dev`. Push `dev` for a Vercel Preview deployment only. The custom domains stay on production branch `main`; do not merge until the design is approved.
 
 Detail pages: `about.html`, `career.html`, `casting.html`, `patterns.html`, `foam-trimming.html`, `jigs.html`, `projects.html`, `equipment.html`, `contact.html`. New detail pages currently carry `noindex, nofollow` for review; revisit indexability and sitemap before releasing them.
+
+## Mixed image comparison
+
+Branch `codex/mixed-product-images` starts directly from `dev`. Real product/mold photographs fill their card frames with a centered CSS crop; the zoom dialog loads the complete original JPEG without cropping. Twelve CAD images use transparent WebP cutouts from the previous background-removal comparison, with transparent card/hero backgrounds. Company exterior/workshop photographs are unchanged.
