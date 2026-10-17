@@ -4,3 +4,12 @@ nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classLi
 const details=[['01 / DRAWING REVIEW','2D 도면에 담긴 형상과 주요 정보를 살펴보고, 3D 모델링으로 이어질 설계의 기준을 파악합니다.'],['02 / MASTER MODEL','도면의 형상과 설계 의도를 입체적인 Master Model로 구체화합니다. 설계 이력을 고려하며 다음 단계로 이어질 모델을 다룹니다.'],['03 / CAST MODEL','Master Model을 바탕으로 배치와 주조방안을 고려합니다. 형상을 주조 설계의 관점에서 살펴보는 단계입니다.']];
 document.querySelectorAll('.service').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.service').forEach(x=>{x.classList.remove('active');x.setAttribute('aria-expanded','false')});b.classList.add('active');b.setAttribute('aria-expanded','true');const d=details[Number(b.dataset.index)];document.querySelector('.detail-index').textContent=d[0];document.querySelector('#detail-text').textContent=d[1]}));
 document.querySelector('#year').textContent=new Date().getFullYear();
+
+document.querySelector('.email-copy').addEventListener('click',async()=>{
+  try {
+    await navigator.clipboard.writeText('tcs2021@daum.net');
+    window.alert('복사되었습니다');
+  } catch {
+    window.prompt('아래 이메일 주소를 복사해 주세요.', 'tcs2021@daum.net');
+  }
+});

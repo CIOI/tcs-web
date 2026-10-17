@@ -4,3 +4,5 @@
 .contact-description{font-size:13px;line-height:1.9;color:#61717a;margin:24px 0 0}.contact-project .email{margin-top:28px;margin-bottom:18px}.visit-title{font-size:28px;letter-spacing:-.8px;line-height:1.4;margin:0}.contact-map{display:block;width:100%;height:280px;border:0;margin-top:24px;background:#d9d9d6}.contact>*{min-width:0}@media(max-width:700px){.contact-description{font-size:12px}.contact-map{height:250px}.visit-title{font-size:26px}}
 
 .email-plain{display:block;border:0;padding:0;font-size:20px;letter-spacing:0;user-select:text;cursor:text}@media(max-width:700px){.email-plain{font-size:18px}}
+
+.email-copy{width:100%;background:none;border-top:0;border-left:0;border-right:0;text-align:left;color:inherit;cursor:pointer;font-family:Arial,sans-serif}.email-copy:hover{color:var(--red)}
