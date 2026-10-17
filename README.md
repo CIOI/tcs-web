@@ -46,3 +46,9 @@ After deployment, verify the domain in Google Search Console, submit
 and a DNS TXT record (or the verification file/meta tag supplied by Google).
 Do not add a fabricated verification token. Indexing and rankings are determined
 by Google, and are not guaranteed by these settings.
+
+## Development preview
+
+New detail pages are developed on `dev`. Push `dev` for a Vercel Preview deployment only. The custom domains stay on production branch `main`; do not merge until the design is approved.
+
+Detail pages: `about.html`, `career.html`, `casting.html`, `patterns.html`, `foam-trimming.html`, `jigs.html`, `projects.html`, `equipment.html`, `contact.html`. New detail pages currently carry `noindex, nofollow` for review; revisit indexability and sitemap before releasing them.

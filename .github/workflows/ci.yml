@@ -1,9 +1,9 @@
 name: Site checks
 on:
   pull_request:
-    branches: [main]
+    branches: [main, dev]
   push:
-    branches: [main]
+    branches: [main, dev]
 permissions:
   contents: read
 jobs:
@@ -18,5 +18,6 @@ jobs:
         run: |
           node --check site/dist/app.js
           node --check site/dist/translations.js
+          node --check site/dist/pages.js
       - name: Check assets and section links
         run: python3 scripts/check-site.py

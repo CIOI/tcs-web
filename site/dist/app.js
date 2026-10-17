@@ -7,7 +7,7 @@ const details=[['01 / DRAWING REVIEW','2D 도면에 담긴 형상과 주요 정�
 document.querySelectorAll('.service').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.service').forEach(x=>{x.classList.remove('active');x.setAttribute('aria-expanded','false')});b.classList.add('active');b.setAttribute('aria-expanded','true');const d=details[Number(b.dataset.index)];document.querySelector('.detail-index').textContent=d[0];document.querySelector('#detail-text').textContent=translate(d[1])}));
 document.querySelector('#year').textContent=new Date().getFullYear();
 
-document.querySelector('.email-copy').addEventListener('click',async()=>{
+document.querySelector('.email-copy')?.addEventListener('click',async()=>{
   try {
     await navigator.clipboard.writeText('tcs2021@daum.net');
     window.alert(translate('복사되었습니다'));
@@ -26,8 +26,8 @@ while (walker.nextNode()) {
   if (window.TCS_TRANSLATIONS[key]) localizedNodes.push({node, original:node.textContent, key});
 }
 const localizedAttributes = [];
-document.querySelectorAll('[aria-label], [title]').forEach(element => {
-  for (const attribute of ['aria-label', 'title']) {
+document.querySelectorAll('[aria-label], [title], [alt]').forEach(element => {
+  for (const attribute of ['aria-label', 'title', 'alt']) {
     const original = element.getAttribute(attribute);
     if (window.TCS_TRANSLATIONS[original]) localizedAttributes.push({element, attribute, original});
   }
@@ -43,7 +43,7 @@ function setLanguage(next) {
   localizedAttributes.forEach(({element, attribute, original}) => element.setAttribute(attribute, translate(original)));
   menu.setAttribute('aria-label',translate(menu.getAttribute('aria-expanded') === 'true' ? '메뉴 닫기' : '메뉴 열기'));
   const active = document.querySelector('.service.active');
-  document.querySelector('#detail-text').textContent = translate(details[Number(active.dataset.index)][1]);
+  if (active) document.querySelector('#detail-text').textContent = translate(details[Number(active.dataset.index)][1]);
   document.querySelectorAll('[data-lang]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.lang === language)));
   description.content = language === 'en' ? 'TCS — Total Casting Solution. 2D drawing review, 3D master models and casting plan design in Gimpo, South Korea.' : originalDescription;
   try { localStorage.setItem('tcs-language', language); } catch {}
@@ -55,7 +55,7 @@ setLanguage(savedLanguage || 'ko');
 
 const partnersSection = document.querySelector('.partners');
 const partnersToggle = document.querySelector('.partners-toggle');
-partnersToggle.addEventListener('click', () => {
+partnersToggle?.addEventListener('click', () => {
   const paused = partnersSection.classList.toggle('is-paused');
   partnersToggle.setAttribute('aria-pressed', String(paused));
   partnersToggle.querySelector('span').textContent = paused ? '▶' : 'Ⅱ';
