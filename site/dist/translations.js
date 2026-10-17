@@ -55,7 +55,7 @@ window.TCS_TRANSLATIONS = {
   "2D 도면에 담긴 형상과 주요 정보를 살펴보고, 3D 모델링으로 이어질 설계의 기준을 파악합니다.": "We review geometry and key information in 2D drawings to establish a basis for 3D modeling.",
   "도면의 형상과 설계 의도를 입체적인 Master Model로 구체화합니다. 설계 이력을 고려하며 다음 단계로 이어질 모델을 다룹니다.": "We develop the drawing geometry and design intent into a 3D master model, considering design history and the next stage of the workflow.",
   "Master Model을 바탕으로 배치와 주조방안을 고려합니다. 형상을 주조 설계의 관점에서 살펴보는 단계입니다.": "We consider layouts and casting plans based on the master model, reviewing geometry from a casting design perspective.",
-  "협력회사": "Our Partners",
+  "주요 고객사": "Key Clients",
   "로고 자동 이동 정지/재생": "Pause or resume partner logos",
   "진흥주물": "JIN HEUNG",
   "삼창주철공업": "SAMCHANG",
