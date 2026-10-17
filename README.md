@@ -30,3 +30,19 @@ GitHub Actions checks JavaScript syntax, local assets and section links on pull 
 Project dashboard: https://vercel.com/ciois-projects/tcs-web
 
 The GitHub check and Vercel deployment run independently. A required merge check can be enabled in repository branch rules if desired. Private company research is excluded from Git and deployment output.
+
+## Search indexing
+
+Canonical production URL: https://tcscast.com/
+
+The static HTML includes Korean search metadata, social sharing metadata, and
+LocalBusiness/WebSite JSON-LD using the public company details on the page.
+The language switch is client-side; it does not create separate English URLs.
+Only the homepage belongs in the sitemap; section fragments are not separate pages.
+
+After deployment, verify the domain in Google Search Console, submit
+`https://tcscast.com/sitemap.xml`, and use URL Inspection to request indexing of
+`https://tcscast.com/`. Domain verification requires the owner's Google account
+and a DNS TXT record (or the verification file/meta tag supplied by Google).
+Do not add a fabricated verification token. Indexing and rankings are determined
+by Google, and are not guaranteed by these settings.
