@@ -1,0 +1,9 @@
+.DS_Store
+.vercel/
+.local/
+node_modules/
+.env*
+!.env.example
+company_info/
+site/.openai/
+site-deploy.tar.gz
