@@ -52,3 +52,9 @@ by Google, and are not guaranteed by these settings.
 New detail pages are developed on `dev`. Push `dev` for a Vercel Preview deployment only. The custom domains stay on production branch `main`; do not merge until the design is approved.
 
 Detail pages: `about.html`, `career.html`, `casting.html`, `patterns.html`, `foam-trimming.html`, `jigs.html`, `projects.html`, `equipment.html`, `contact.html`. New detail pages currently carry `noindex, nofollow` for review; revisit indexability and sitemap before releasing them.
+
+## Transparent product photo comparison
+
+Branch `codex/transparent-products` starts from `dev` and uses transparent WebP cutouts for the 31 product/model images. Original JPEGs remain unchanged. Company exterior and workshop photographs retain their surroundings.
+
+Cutouts are produced locally with rembg 2.0.85 and the BiRefNet-general model; masks were reviewed and pale tool faces manually restored where necessary. The site itself has no image-processing runtime dependency. Images keep the original dimensions and are displayed without separate background panels, so transparency shows the containing page's background color. Review this branch through its own Vercel Preview before choosing whether to merge it into `dev`.
