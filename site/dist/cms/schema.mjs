@@ -2,7 +2,7 @@ import {defineType,defineField} from 'sanity';
 const field=(name,title,type,extra={})=>defineField({name,title,type,...extra});
 const localized=(name,title,extra={})=>field(name,title,'localizedText',extra);
 const photoFields=[
- field('image','사진 업로드','image',{options:{hotspot:true},description:'새 사진을 올리면 기존 사진을 대체합니다. 자르기와 초점 위치도 조정할 수 있습니다.'}),
+ field('image','사진 업로드','image',{validation:r=>r.required(),options:{hotspot:true},description:'새 사진을 올리면 기존 사진을 대체합니다. 자르기와 초점 위치도 조정할 수 있습니다.'}),
  field('sourceUrl','기존 이미지','string',{hidden:true}),
  localized('alt','사진 설명'),
  field('display','목록 표시 방식','string',{initialValue:'cover',options:{list:[{title:'프레임 채우기 (실제 사진)',value:'cover'},{title:'전체 보이기 (CAD·배경 제거본)',value:'contain'}],layout:'radio'}}),
