@@ -25,8 +25,7 @@ for(const name of ['assets','styles.css','pages.css','app.js','pages.js','transl
 for(const name of await readdir(root)){if(!name.endsWith('.html'))continue;let html=await readFile(resolve(root,name),'utf8');if(name.startsWith('google')){await writeFile(resolve(out,name),html);continue;}
  const {document}=parseHTML(html);const page=name.replace('.html','');
  const translations=renderContent(document,docs,page,config);
- const steps=docs.find(d=>d._type==='sitePage'&&d.page===page)?.processSteps?.map(step=>[step.label,step.description.ko]);
- const script=document.createElement('script');script.textContent=(steps?'window.TCS_PROCESS_STEPS='+JSON.stringify(steps).replace(/</g,'\\u003c')+';':'')+'Object.assign(window.TCS_TRANSLATIONS,'+JSON.stringify(translations).replace(/</g,'\\u003c')+');';document.querySelector('script[src="translations.js"]').after(script);
+ const script=document.createElement('script');script.textContent='Object.assign(window.TCS_TRANSLATIONS,'+JSON.stringify(translations).replace(/</g,'\\u003c')+');';document.querySelector('script[src="translations.js"]').after(script);
  if(process.env.VERCEL_ENV!=='production')document.querySelector('meta[name="robots"]')?.setAttribute('content','noindex, nofollow');
  const base='https://tcscast.com/'+(name==='index.html'?'':name);if(!document.querySelector('link[rel="canonical"]')){const canonical=document.createElement('link');canonical.rel='canonical';canonical.href=base;document.head.append(canonical);}
  await writeFile(resolve(out,name),document.toString());

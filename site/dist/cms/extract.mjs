@@ -38,7 +38,7 @@ for(const name of pages){
   docs.push({_id:'equipment',_type:'equipment',title:'보유 장비',rows:equipment,software});
  }
 }
-const app=await readFile(resolve(root,'app.js'),'utf8');const match=app.match(/const details=(?:window\.TCS_PROCESS_STEPS\|\|)?(\[.*?\]);/s);if(match){const steps=vm.runInNewContext(match[1]);docs.find(d=>d._id==='page-index').processSteps=steps.map((row,i)=>({_type:'processStep',_key:'step'+i,label:row[0],description:localized(row[1])}));}
+const {document:homeDocument}=parseHTML(await readFile(resolve(root,'index.html'),'utf8'));const featuredTitles=[...homeDocument.querySelectorAll('.project-card h3')].map(el=>el.textContent.trim());for(const project of projects)project.featured=featuredTitles.includes(project.title.ko);
 docs.push(...projects,...clients);
 docs.push({_id:'company',_type:'company',title:'회사정보',email:'tcs2021@daum.net',phone:'031-996-2044',fax:'031-996-2045',address:localized('경기도 김포시 대곶면\n대곶로 246-40 티시에스'),mapQuery:'경기도 김포시 대곶면 대곶로 246-40 티시에스',inquiry:localized('프로젝트 개요와 보유 도면을 이메일로 보내주세요.\n구체적인 진행 범위는 상담을 통해 확인합니다.'),footer:localized('티시에스 · 대표 박성서\n사업자등록번호 465-79-00353\n주소: 경기도 김포시 대곶면 대곶로 246-40 티시에스')});
 await writeFile(resolve(root,'content/seed.json'),JSON.stringify(docs,null,2)+'\n');console.log(`Extracted ${docs.length} public content documents`);
