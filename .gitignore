@@ -7,3 +7,5 @@ node_modules/
 company_info/
 site/.openai/
 site-deploy.tar.gz
+site/dist/public/
+site/dist/.sanity/

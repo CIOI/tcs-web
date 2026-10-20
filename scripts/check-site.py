@@ -1,9 +1,10 @@
 """Validate assets, document IDs and links across every static page."""
 from html.parser import HTMLParser
 from pathlib import Path
+import sys
 from urllib.parse import urlsplit, unquote
 
-root = Path(__file__).resolve().parents[1] / 'site' / 'dist'
+root = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else Path(__file__).resolve().parents[1] / 'site' / 'dist'
 class Page(HTMLParser):
     def __init__(self):
         super().__init__()
@@ -18,7 +19,7 @@ class Page(HTMLParser):
             if attrs.get(key):
                 self.refs.append(attrs[key])
 pages = {}
-for path in root.rglob('*.html'):
+for path in root.glob('*.html'):
     page = Page()
     page.feed(path.read_text())
     pages[path.resolve()] = page

@@ -56,3 +56,15 @@ Detail pages: `about.html`, `career.html`, `casting.html`, `patterns.html`, `foa
 ## Mixed image comparison
 
 Branch `codex/mixed-product-images` starts directly from `dev`. Real product/mold photographs fill their card frames with a centered CSS crop; the zoom dialog loads the complete original JPEG without cropping. Twelve CAD images use transparent WebP cutouts from the previous background-removal comparison, with transparent card/hero backgrounds. Company exterior/workshop photographs are unchanged.
+
+## Sanity content management (development only)
+
+The CMS integration lives in `site/dist/cms/`. `content/seed.json` contains only public website content, extracted from the approved static templates. The existing HTML files remain the templates. `npm ci --prefix site/dist` installs the locked editor/build dependencies; `npm --prefix site/dist test` checks gallery ordering/removal, bilingual fields, original images and safe content rendering.
+
+Run `npm --prefix site/dist run build` without cloud configuration for a local seed preview, then serve `site/dist/public`. With `SANITY_STUDIO_PROJECT_ID` and `SANITY_STUDIO_DATASET=development`, builds read published CMS documents and compile the authenticated Studio at `/admin/`. A remote build refuses to use the local seed silently; a preview also refuses the production dataset. Read/write tokens must never use the `SANITY_STUDIO_` prefix.
+
+For initial setup, create a Sanity development dataset, authenticate the CLI, and import once using `SANITY_API_TOKEN` with `npm --prefix site/dist run cms:import`. The importer uploads original public assets and refuses to overwrite existing customer documents. Add the exact preview origins to Sanity CORS with credentials. Configure a Vercel deploy hook for the CMS branch/dev only, then register a Sanity document webhook on the development dataset, excluding drafts, for the five document types. Keep the hook URL secret.
+
+Draft previews render the currently edited document in a same-origin iframe inside the authenticated Studio. No API token is embedded in website HTML or the preview. Publish events rebuild static HTML for search engines, preserving original gallery navigation. This is a form-based CMS with document preview, not click-to-edit overlays on the public website.
+
+Customer guide: [docs/content/sanity-editor-guide.md](docs/content/sanity-editor-guide.md). Main and the purchased domains must not be changed as part of CMS setup.

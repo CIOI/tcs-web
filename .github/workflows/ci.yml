@@ -14,6 +14,23 @@ jobs:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: site/dist/package-lock.json
+      - name: Install CMS dependencies
+        run: npm ci --prefix site/dist --no-audit
+      - name: Verify content rendering
+        run: |
+          npm --prefix site/dist test
+          npm --prefix site/dist run build
+          python3 scripts/check-site.py site/dist/public
+      - name: Compile editor
+        env:
+          SANITY_STUDIO_PROJECT_ID: testcms1
+          SANITY_STUDIO_DATASET: development
+        run: npm --prefix site/dist run studio:build
       - name: Check JavaScript syntax
         run: |
           node --check site/dist/app.js

@@ -1,0 +1,2691 @@
+[
+  {
+    "_id": "page-index",
+    "_type": "sitePage",
+    "page": "index",
+    "title": "정교한 설계,완성의 시작.",
+    "seoTitle": {
+      "_type": "localizedText",
+      "ko": "티시에스 TCS | 김포 3D 모델링·주조방안 설계",
+      "en": "TCS | 3D Modeling & Casting Design in Gimpo"
+    },
+    "seoDescription": {
+      "_type": "localizedText",
+      "ko": "티시에스(TCS, Total Casting Solution)는 경기도 김포시의 주형·금형 제조업체입니다. 2D 도면 검토, 3D Master Model 모델링, Cast Model 및 주조방안 설계를 소개합니다. 프로젝트 문의: tcs2021@daum.net.",
+      "en": "TCS — Total Casting Solution. 2D drawing review, 3D master models and casting plan design in Gimpo, South Korea."
+    },
+    "fields": [
+      {
+        "_type": "pageText",
+        "_key": "text0",
+        "label": "생각을 형상으로, 설계를 가능성으로.",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "생각을 형상으로, 설계를 가능성으로.",
+          "en": "From drawings to casting design."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text1",
+        "label": "정교한 설계,\n완성의 시작.",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "정교한 설계,\n완성의 시작.",
+          "en": "Precision Design.\n완성의 시작."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text2",
+        "label": "2D 도면부터 3D 모델, 주조방안 설계까지.\n티시에스는 형상을 이해하고…",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "2D 도면부터 3D 모델, 주조방안 설계까지.\n티시에스는 형상을 이해하고 다음 공정을 생각합니다.",
+          "en": "2D drawings, 3D models and casting plans.\nTCS connects geometry with the next stage of production."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text3",
+        "label": "사업분야",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "사업분야",
+          "en": "Expertise"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text4",
+        "label": "금형 종류와 설계 분야별 업무를 소개합니다.",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "금형 종류와 설계 분야별 업무를 소개합니다.",
+          "en": "Explore our mold and design disciplines."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text5",
+        "label": "주조금형 설계·제작",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1) > h3:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "주조금형 설계·제작",
+          "en": "Casting Mold Design & Manufacturing"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text6",
+        "label": "목형 설계",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(2) > h3:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "목형 설계",
+          "en": "Pattern Design"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text7",
+        "label": "발포·트리밍 금형",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(3) > h3:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "발포·트리밍 금형",
+          "en": "Foam & Trimming Molds"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text8",
+        "label": "지그·기구 설계",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(4) > h3:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "지그·기구 설계",
+          "en": "Fixture & Mechanical Design"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text9",
+        "label": "하나의 도면에도,\n다음 공정을 향한 생각.",
+        "selector": "main > section:nth-of-type(3) > div:nth-of-type(2) > h2:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "하나의 도면에도,\n다음 공정을 향한 생각.",
+          "en": "Every Drawing.\nThe Next Process in Mind."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text10",
+        "label": "티시에스는 경기도 김포시에 자리한 주형·금형 제조업체입니다. 2D 도면과…",
+        "selector": "main > section:nth-of-type(3) > div:nth-of-type(2) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "티시에스는 경기도 김포시에 자리한 주형·금형 제조업체입니다. 2D 도면과 3D Master Model, Cast Model을 다루며 형상과 주조방안을 연결하는 설계를 생각합니다.",
+          "en": "TCS is a mold and tooling manufacturer based in Gimpo, South Korea. We work with 2D drawings, 3D master models and cast models, connecting geometry with casting plan design."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text11",
+        "label": "설계의 과정을 이해하고 형상에 담긴 의도를 이어가는 것.\n그것이 Tota…",
+        "selector": "main > section:nth-of-type(3) > div:nth-of-type(2) > p:nth-of-type(2)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "설계의 과정을 이해하고 형상에 담긴 의도를 이어가는 것.\n그것이 Total Casting Solution이 바라보는 출발점입니다.",
+          "en": "Understanding the design process and preserving its intent.\nThat is the starting point for Total Casting Solution."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text12",
+        "label": "주요 공정 설계",
+        "selector": "main > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "주요 공정 설계",
+          "en": "Design of Major Processes"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text13",
+        "label": "2D 도면 검토 · 3D 모델링 · 주조방안 설계\n주요 설계 단계를 소개…",
+        "selector": "main > section:nth-of-type(4) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "2D 도면 검토 · 3D 모델링 · 주조방안 설계\n주요 설계 단계를 소개합니다.",
+          "en": "2D drawing review · 3D modeling · Casting plan design\nExplore the main stages of our design workflow."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text14",
+        "label": "도면 이해",
+        "selector": "main > section:nth-of-type(4) > div:nth-of-type(2) > article:nth-of-type(1) > h3:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "도면 이해",
+          "en": "Drawing Review"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text15",
+        "label": "2D 도면의 형상과 주요 설계 정보를 파악합니다.",
+        "selector": "main > section:nth-of-type(4) > div:nth-of-type(2) > article:nth-of-type(1) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "2D 도면의 형상과 주요 설계 정보를 파악합니다.",
+          "en": "Review geometry and key design information in 2D drawings."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text16",
+        "label": "Master Model",
+        "selector": "main > section:nth-of-type(4) > div:nth-of-type(2) > article:nth-of-type(2) > h3:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "Master Model",
+          "en": "Master Model"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text17",
+        "label": "설계 의도를 바탕으로 3D 형상을 구체화합니다.",
+        "selector": "main > section:nth-of-type(4) > div:nth-of-type(2) > article:nth-of-type(2) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "설계 의도를 바탕으로 3D 형상을 구체화합니다.",
+          "en": "Develop 3D geometry based on the design intent."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text18",
+        "label": "Cast Model",
+        "selector": "main > section:nth-of-type(4) > div:nth-of-type(2) > article:nth-of-type(3) > h3:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "Cast Model",
+          "en": "Cast Model"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text19",
+        "label": "배치와 주조방안을 반영한 모델로 연결합니다.",
+        "selector": "main > section:nth-of-type(4) > div:nth-of-type(2) > article:nth-of-type(3) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "배치와 주조방안을 반영한 모델로 연결합니다.",
+          "en": "Develop models incorporating layouts and casting plans."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text20",
+        "label": "제작 사례",
+        "selector": "main > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "제작 사례",
+          "en": "Project References"
+        }
+      }
+    ],
+    "images": [
+      {
+        "_type": "pageImage",
+        "_key": "image0",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "진흥주물",
+          "en": "JIN HEUNG"
+        },
+        "sourceUrl": "assets/partners/jinheung.png",
+        "display": "contain",
+        "rotation": 0,
+        "label": "진흥주물",
+        "selector": "main > section:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)"
+      },
+      {
+        "_type": "pageImage",
+        "_key": "image1",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "삼창주철공업",
+          "en": "SAMCHANG"
+        },
+        "sourceUrl": "assets/partners/samchang.png",
+        "display": "contain",
+        "rotation": 0,
+        "label": "삼창주철공업",
+        "selector": "main > section:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > a:nth-of-type(1) > img:nth-of-type(1)"
+      },
+      {
+        "_type": "pageImage",
+        "_key": "image2",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "한국주철관공업",
+          "en": "KCIP"
+        },
+        "sourceUrl": "assets/partners/kcip.png",
+        "display": "contain",
+        "rotation": 0,
+        "label": "한국주철관공업",
+        "selector": "main > section:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > a:nth-of-type(1) > img:nth-of-type(1)"
+      },
+      {
+        "_type": "pageImage",
+        "_key": "image3",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "대한솔루션",
+          "en": "DAEHAN SOLUTION"
+        },
+        "sourceUrl": "assets/partners/daehan.png",
+        "display": "contain",
+        "rotation": 0,
+        "label": "대한솔루션",
+        "selector": "main > section:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(4) > a:nth-of-type(1) > img:nth-of-type(1)"
+      },
+      {
+        "_type": "pageImage",
+        "_key": "image4",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "카프리텍",
+          "en": "CARPRITEC"
+        },
+        "sourceUrl": "assets/partners/carpritec.png",
+        "display": "contain",
+        "rotation": 0,
+        "label": "카프리텍",
+        "selector": "main > section:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(5) > a:nth-of-type(1) > img:nth-of-type(1)"
+      },
+      {
+        "_type": "pageImage",
+        "_key": "image5",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "진흥주물",
+          "en": "JIN HEUNG"
+        },
+        "sourceUrl": "assets/partners/jinheung.png",
+        "display": "contain",
+        "rotation": 0,
+        "label": "진흥주물",
+        "selector": "main > section:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(2) > li:nth-of-type(1) > a:nth-of-type(1) > img:nth-of-type(1)"
+      },
+      {
+        "_type": "pageImage",
+        "_key": "image6",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "삼창주철공업",
+          "en": "SAMCHANG"
+        },
+        "sourceUrl": "assets/partners/samchang.png",
+        "display": "contain",
+        "rotation": 0,
+        "label": "삼창주철공업",
+        "selector": "main > section:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(2) > li:nth-of-type(2) > a:nth-of-type(1) > img:nth-of-type(1)"
+      },
+      {
+        "_type": "pageImage",
+        "_key": "image7",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "한국주철관공업",
+          "en": "KCIP"
+        },
+        "sourceUrl": "assets/partners/kcip.png",
+        "display": "contain",
+        "rotation": 0,
+        "label": "한국주철관공업",
+        "selector": "main > section:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(2) > li:nth-of-type(3) > a:nth-of-type(1) > img:nth-of-type(1)"
+      },
+      {
+        "_type": "pageImage",
+        "_key": "image8",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "대한솔루션",
+          "en": "DAEHAN SOLUTION"
+        },
+        "sourceUrl": "assets/partners/daehan.png",
+        "display": "contain",
+        "rotation": 0,
+        "label": "대한솔루션",
+        "selector": "main > section:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(2) > li:nth-of-type(4) > a:nth-of-type(1) > img:nth-of-type(1)"
+      },
+      {
+        "_type": "pageImage",
+        "_key": "image9",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "카프리텍",
+          "en": "CARPRITEC"
+        },
+        "sourceUrl": "assets/partners/carpritec.png",
+        "display": "contain",
+        "rotation": 0,
+        "label": "카프리텍",
+        "selector": "main > section:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(2) > li:nth-of-type(5) > a:nth-of-type(1) > img:nth-of-type(1)"
+      }
+    ],
+    "processSteps": [
+      {
+        "_type": "processStep",
+        "_key": "step0",
+        "label": "01 / DRAWING REVIEW",
+        "description": {
+          "_type": "localizedText",
+          "ko": "2D 도면에 담긴 형상과 주요 정보를 살펴보고, 3D 모델링으로 이어질 설계의 기준을 파악합니다.",
+          "en": "We review geometry and key information in 2D drawings to establish a basis for 3D modeling."
+        }
+      },
+      {
+        "_type": "processStep",
+        "_key": "step1",
+        "label": "02 / MASTER MODEL",
+        "description": {
+          "_type": "localizedText",
+          "ko": "도면의 형상과 설계 의도를 입체적인 Master Model로 구체화합니다. 설계 이력을 고려하며 다음 단계로 이어질 모델을 다룹니다.",
+          "en": "We develop the drawing geometry and design intent into a 3D master model, considering design history and the next stage of the workflow."
+        }
+      },
+      {
+        "_type": "processStep",
+        "_key": "step2",
+        "label": "03 / CAST MODEL",
+        "description": {
+          "_type": "localizedText",
+          "ko": "Master Model을 바탕으로 배치와 주조방안을 고려합니다. 형상을 주조 설계의 관점에서 살펴보는 단계입니다.",
+          "en": "We consider layouts and casting plans based on the master model, reviewing geometry from a casting design perspective."
+        }
+      }
+    ]
+  },
+  {
+    "_id": "page-about",
+    "_type": "sitePage",
+    "page": "about",
+    "title": "회사개요",
+    "seoTitle": {
+      "_type": "localizedText",
+      "ko": "회사개요 | 티시에스 TCS",
+      "en": "Company Overview | TCS"
+    },
+    "seoDescription": {
+      "_type": "localizedText",
+      "ko": "티시에스 TCS — 회사개요",
+      "en": "TCS — Company Overview. Total Casting Solution."
+    },
+    "fields": [
+      {
+        "_type": "pageText",
+        "_key": "text0",
+        "label": "회사개요",
+        "selector": "main > div:nth-of-type(2) > h1:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "회사개요",
+          "en": "Company Overview"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text1",
+        "label": "티시에스의 기본정보와 사업장을 소개합니다.",
+        "selector": "main > div:nth-of-type(2) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "티시에스의 기본정보와 사업장을 소개합니다.",
+          "en": "Company information and our workplace in Gimpo, South Korea."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text2",
+        "label": "주형·금형 설계 및 제작",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(2) > h2:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "주형·금형 설계 및 제작",
+          "en": "Mold & Tooling Design and Manufacturing"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text3",
+        "label": "티시에스는 2021년 설립된 김포 소재 주형·금형 제조업체입니다. 주조금…",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "티시에스는 2021년 설립된 김포 소재 주형·금형 제조업체입니다. 주조금형과 목형, 발포·트리밍 금형, 지그·기구 설계 분야의 작업 사례를 보유하고 있습니다.",
+          "en": "Established in 2021, TCS is a mold and tooling manufacturer in Gimpo. Our portfolio includes casting molds, pattern design, foam and trimming molds, and fixture and mechanical design."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text4",
+        "label": "티시에스 / TCS",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(2) > dl:nth-of-type(1) > div:nth-of-type(1) > dd:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "티시에스 / TCS",
+          "en": "TCS — Total Casting Solution"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text5",
+        "label": "2021년 10월 6일",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(2) > dl:nth-of-type(1) > div:nth-of-type(2) > dd:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "2021년 10월 6일",
+          "en": "October 6, 2021"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text6",
+        "label": "박성서",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(2) > dl:nth-of-type(1) > div:nth-of-type(3) > dd:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "박성서",
+          "en": "Park Seong-seo"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text7",
+        "label": "465-79-00353",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(2) > dl:nth-of-type(1) > div:nth-of-type(4) > dd:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "465-79-00353",
+          "en": "465-79-00353"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text8",
+        "label": "경기도 김포시 대곶면 대곶로 246-40",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(2) > dl:nth-of-type(1) > div:nth-of-type(5) > dd:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "경기도 김포시 대곶면 대곶로 246-40",
+          "en": "246-40 Daegot-ro, Daegot-myeon, Gimpo-si, South Korea"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text9",
+        "label": "프로젝트 문의",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "프로젝트 문의",
+          "en": "Project Inquiries"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text10",
+        "label": "도면과 프로젝트 개요를 보내주시면 진행 범위를 협의합니다.",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "도면과 프로젝트 개요를 보내주시면 진행 범위를 협의합니다.",
+          "en": "Send your drawings and project outline to discuss the scope."
+        }
+      }
+    ],
+    "images": [
+      {
+        "_type": "pageImage",
+        "_key": "image0",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "티시에스 사업장 외관",
+          "en": "TCS workplace exterior"
+        },
+        "sourceUrl": "assets/projects/s02-01.jpg",
+        "display": "contain",
+        "rotation": 0,
+        "label": "티시에스 사업장 외관",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)"
+      }
+    ]
+  },
+  {
+    "_id": "page-career",
+    "_type": "sitePage",
+    "page": "career",
+    "title": "대표자 경력",
+    "seoTitle": {
+      "_type": "localizedText",
+      "ko": "대표자 경력 | 티시에스 TCS",
+      "en": "Representative Experience | TCS"
+    },
+    "seoDescription": {
+      "_type": "localizedText",
+      "ko": "티시에스 TCS — 대표자 경력",
+      "en": "TCS — Representative Experience. Total Casting Solution."
+    },
+    "fields": [
+      {
+        "_type": "pageText",
+        "_key": "text0",
+        "label": "대표자 경력",
+        "selector": "main > div:nth-of-type(2) > h1:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "대표자 경력",
+          "en": "Representative Experience"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text1",
+        "label": "설계·제작 분야별 경력을 소개합니다.",
+        "selector": "main > div:nth-of-type(2) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "설계·제작 분야별 경력을 소개합니다.",
+          "en": "Experience across mold, tooling and mechanical design."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text2",
+        "label": "분야별 설계·제작 경력",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "분야별 설계·제작 경력",
+          "en": "Design & Manufacturing Experience"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text3",
+        "label": "회사소개서에 기재된 분야별 경력입니다.",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "회사소개서에 기재된 분야별 경력입니다.",
+          "en": "Experience by field as listed in our company profile."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text4",
+        "label": "자동차 검사구·용접지그 제작 및 설계",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(1) > h3:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "자동차 검사구·용접지그 제작 및 설계",
+          "en": "Automotive Inspection & Welding Fixtures"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text5",
+        "label": "3",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(1) > span:nth-of-type(1) > b:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "3",
+          "en": "3"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text6",
+        "label": "사출금형 설계",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(2) > h3:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "사출금형 설계",
+          "en": "Injection Mold Design"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text7",
+        "label": "3",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(2) > span:nth-of-type(1) > b:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "3",
+          "en": "3"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text8",
+        "label": "발포·자동차 내장재 금형설계",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(3) > h3:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "발포·자동차 내장재 금형설계",
+          "en": "Foam & Automotive Interior Mold Design"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text9",
+        "label": "7",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(3) > span:nth-of-type(1) > b:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "7",
+          "en": "7"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text10",
+        "label": "주조금형·목형 설계",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(4) > h3:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "주조금형·목형 설계",
+          "en": "Casting Mold & Pattern Design"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text11",
+        "label": "15",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(4) > span:nth-of-type(1) > b:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "15",
+          "en": "15"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text12",
+        "label": "기구설계·금형설계 및 제작",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(5) > h3:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "기구설계·금형설계 및 제작",
+          "en": "Mechanical Design & Mold Manufacturing"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text13",
+        "label": "3",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(5) > span:nth-of-type(1) > b:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "3",
+          "en": "3"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text14",
+        "label": "프로젝트 문의",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "프로젝트 문의",
+          "en": "Project Inquiries"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text15",
+        "label": "도면과 프로젝트 개요를 보내주시면 진행 범위를 협의합니다.",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "도면과 프로젝트 개요를 보내주시면 진행 범위를 협의합니다.",
+          "en": "Send your drawings and project outline to discuss the scope."
+        }
+      }
+    ],
+    "images": []
+  },
+  {
+    "_id": "page-casting",
+    "_type": "sitePage",
+    "page": "casting",
+    "title": "주조금형 설계·제작",
+    "seoTitle": {
+      "_type": "localizedText",
+      "ko": "주조금형 설계·제작 | 티시에스 TCS",
+      "en": "Casting Mold Design & Manufacturing | TCS"
+    },
+    "seoDescription": {
+      "_type": "localizedText",
+      "ko": "티시에스 TCS — 주조금형 설계·제작",
+      "en": "TCS — Casting Mold Design & Manufacturing. Total Casting Solution."
+    },
+    "fields": [
+      {
+        "_type": "pageText",
+        "_key": "text0",
+        "label": "주조금형 설계·제작",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "주조금형 설계·제작",
+          "en": "Casting Mold Design & Manufacturing"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text1",
+        "label": "중력주조금형부터 밸브바디·FCD 주물용 금형까지, 회사소개서에 수록된 주…",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "중력주조금형부터 밸브바디·FCD 주물용 금형까지, 회사소개서에 수록된 주조금형 사례를 소개합니다.",
+          "en": "Explore gravity casting molds, valve body molds and tooling for ductile iron castings featured in our company portfolio."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text2",
+        "label": "오토미션 밸브바디 주조금형",
+        "selector": "main > section:nth-of-type(1) > figure:nth-of-type(1) > figcaption:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "오토미션 밸브바디 주조금형",
+          "en": "Automatic Transmission Valve Body Mold"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text3",
+        "label": "주요 설계 검토 항목",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "주요 설계 검토 항목",
+          "en": "Key Design Considerations"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text4",
+        "label": "실제 진행 순서와 범위는 프로젝트별로 협의합니다.",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "실제 진행 순서와 범위는 프로젝트별로 협의합니다.",
+          "en": "The workflow and scope are agreed for each project."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text5",
+        "label": "제품 형상 검토",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(1) > h3:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "제품 형상 검토",
+          "en": "Product Geometry"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text6",
+        "label": "제품 도면과 모델의 형상·주요 치수를 검토합니다.",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(1) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "제품 도면과 모델의 형상·주요 치수를 검토합니다.",
+          "en": "Review product geometry and key dimensions in drawings and models."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text7",
+        "label": "금형 구조 설계",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(2) > h3:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "금형 구조 설계",
+          "en": "Mold Structure"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text8",
+        "label": "제품 형상과 주조방안을 고려해 금형 구조를 검토합니다.",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(2) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "제품 형상과 주조방안을 고려해 금형 구조를 검토합니다.",
+          "en": "Consider mold structure in relation to product geometry and casting plans."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text9",
+        "label": "설계·제작 협의",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(3) > h3:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "설계·제작 협의",
+          "en": "Design & Manufacturing"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text10",
+        "label": "프로젝트별 요구사항과 설계·제작 범위를 협의합니다.",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(3) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "프로젝트별 요구사항과 설계·제작 범위를 협의합니다.",
+          "en": "Discuss project requirements and the scope of design and manufacturing."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text11",
+        "label": "제작 사례",
+        "selector": "main > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "제작 사례",
+          "en": "Project References"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text12",
+        "label": "프로젝트 문의",
+        "selector": "main > section:nth-of-type(4) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "프로젝트 문의",
+          "en": "Project Inquiries"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text13",
+        "label": "도면과 프로젝트 개요를 보내주시면 진행 범위를 협의합니다.",
+        "selector": "main > section:nth-of-type(4) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "도면과 프로젝트 개요를 보내주시면 진행 범위를 협의합니다.",
+          "en": "Send your drawings and project outline to discuss the scope."
+        }
+      }
+    ],
+    "images": [
+      {
+        "_type": "pageImage",
+        "_key": "image0",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "오토미션 밸브바디 주조금형",
+          "en": "Automatic Transmission Valve Body Mold"
+        },
+        "sourceUrl": "assets/projects/transparent/s09-06.webp",
+        "display": "contain",
+        "rotation": 0,
+        "label": "오토미션 밸브바디 주조금형",
+        "selector": "main > section:nth-of-type(1) > figure:nth-of-type(1) > img:nth-of-type(1)"
+      }
+    ]
+  },
+  {
+    "_id": "page-patterns",
+    "_type": "sitePage",
+    "page": "patterns",
+    "title": "목형 설계",
+    "seoTitle": {
+      "_type": "localizedText",
+      "ko": "목형 설계 | 티시에스 TCS",
+      "en": "Pattern Design | TCS"
+    },
+    "seoDescription": {
+      "_type": "localizedText",
+      "ko": "티시에스 TCS — 목형 설계",
+      "en": "TCS — Pattern Design. Total Casting Solution."
+    },
+    "fields": [
+      {
+        "_type": "pageText",
+        "_key": "text0",
+        "label": "목형 설계",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "목형 설계",
+          "en": "Pattern Design"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text1",
+        "label": "펌프케이싱 목형설계와 샌드 3D 프린트 활용 디자인을 중심으로, 주형을 …",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "펌프케이싱 목형설계와 샌드 3D 프린트 활용 디자인을 중심으로, 주형을 위한 설계 사례를 소개합니다.",
+          "en": "Pattern design references include pump casings and designs using 3D sand printing."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text2",
+        "label": "샌드 3D 프린트 활용 디자인",
+        "selector": "main > section:nth-of-type(1) > figure:nth-of-type(1) > figcaption:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "샌드 3D 프린트 활용 디자인",
+          "en": "Design Using 3D Sand Printing"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text3",
+        "label": "주요 설계 검토 항목",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "주요 설계 검토 항목",
+          "en": "Key Design Considerations"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text4",
+        "label": "실제 진행 순서와 범위는 프로젝트별로 협의합니다.",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "실제 진행 순서와 범위는 프로젝트별로 협의합니다.",
+          "en": "The workflow and scope are agreed for each project."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text5",
+        "label": "도면·모델 검토",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(1) > h3:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "도면·모델 검토",
+          "en": "Drawings & Models"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text6",
+        "label": "제품 형상과 주형 설계에 필요한 정보를 확인합니다.",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(1) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "제품 형상과 주형 설계에 필요한 정보를 확인합니다.",
+          "en": "Review geometry and information needed for pattern design."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text7",
+        "label": "목형·주형 설계",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(2) > h3:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "목형·주형 설계",
+          "en": "Pattern & Mold Design"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text8",
+        "label": "제품 특성과 제작 방식을 고려해 형상을 설계합니다.",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(2) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "제품 특성과 제작 방식을 고려해 형상을 설계합니다.",
+          "en": "Develop geometry with product characteristics and production methods in mind."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text9",
+        "label": "설계 데이터 협의",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(3) > h3:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "설계 데이터 협의",
+          "en": "Design Data"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text10",
+        "label": "모델 데이터와 후속 제작에 필요한 내용을 협의합니다.",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(3) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "모델 데이터와 후속 제작에 필요한 내용을 협의합니다.",
+          "en": "Discuss model data and requirements for the next production stage."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text11",
+        "label": "제작 사례",
+        "selector": "main > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "제작 사례",
+          "en": "Project References"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text12",
+        "label": "프로젝트 문의",
+        "selector": "main > section:nth-of-type(4) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "프로젝트 문의",
+          "en": "Project Inquiries"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text13",
+        "label": "도면과 프로젝트 개요를 보내주시면 진행 범위를 협의합니다.",
+        "selector": "main > section:nth-of-type(4) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "도면과 프로젝트 개요를 보내주시면 진행 범위를 협의합니다.",
+          "en": "Send your drawings and project outline to discuss the scope."
+        }
+      }
+    ],
+    "images": [
+      {
+        "_type": "pageImage",
+        "_key": "image0",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "샌드 3D 프린트 활용 디자인",
+          "en": "Design Using 3D Sand Printing"
+        },
+        "sourceUrl": "assets/projects/landscape/s11-01.jpg",
+        "display": "cover",
+        "rotation": 0,
+        "label": "샌드 3D 프린트 활용 디자인",
+        "selector": "main > section:nth-of-type(1) > figure:nth-of-type(1) > img:nth-of-type(1)"
+      }
+    ]
+  },
+  {
+    "_id": "page-foam-trimming",
+    "_type": "sitePage",
+    "page": "foam-trimming",
+    "title": "발포·트리밍 금형",
+    "seoTitle": {
+      "_type": "localizedText",
+      "ko": "발포·트리밍 금형 | 티시에스 TCS",
+      "en": "Foam & Trimming Molds | TCS"
+    },
+    "seoDescription": {
+      "_type": "localizedText",
+      "ko": "티시에스 TCS — 발포·트리밍 금형",
+      "en": "TCS — Foam & Trimming Molds. Total Casting Solution."
+    },
+    "fields": [
+      {
+        "_type": "pageText",
+        "_key": "text0",
+        "label": "발포·트리밍 금형",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "발포·트리밍 금형",
+          "en": "Foam & Trimming Molds"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text1",
+        "label": "발포금형 설계 모델과 가니쉬 트리밍 금형 사진을 통해 관련 작업 사례를 …",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "발포금형 설계 모델과 가니쉬 트리밍 금형 사진을 통해 관련 작업 사례를 확인할 수 있습니다.",
+          "en": "View foam mold design models and photographs of garnish trimming molds."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text2",
+        "label": "가니쉬 트리밍 금형",
+        "selector": "main > section:nth-of-type(1) > figure:nth-of-type(1) > figcaption:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "가니쉬 트리밍 금형",
+          "en": "Garnish Trimming Mold"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text3",
+        "label": "주요 설계 검토 항목",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "주요 설계 검토 항목",
+          "en": "Key Design Considerations"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text4",
+        "label": "실제 진행 순서와 범위는 프로젝트별로 협의합니다.",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "실제 진행 순서와 범위는 프로젝트별로 협의합니다.",
+          "en": "The workflow and scope are agreed for each project."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text5",
+        "label": "제품 형상 확인",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(1) > h3:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "제품 형상 확인",
+          "en": "Product Geometry"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text6",
+        "label": "대상 제품의 형상과 금형 요구사항을 확인합니다.",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(1) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "대상 제품의 형상과 금형 요구사항을 확인합니다.",
+          "en": "Review the product geometry and mold requirements."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text7",
+        "label": "금형 구조 검토",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(2) > h3:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "금형 구조 검토",
+          "en": "Mold Structure"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text8",
+        "label": "성형·트리밍 목적에 맞는 금형 구조를 검토합니다.",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(2) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "성형·트리밍 목적에 맞는 금형 구조를 검토합니다.",
+          "en": "Review the mold structure for the forming or trimming application."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text9",
+        "label": "작업 범위 협의",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(3) > h3:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "작업 범위 협의",
+          "en": "Project Scope"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text10",
+        "label": "금형별 설계·제작 범위를 프로젝트에 맞춰 협의합니다.",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(3) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "금형별 설계·제작 범위를 프로젝트에 맞춰 협의합니다.",
+          "en": "Agree on a design and manufacturing scope for each project."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text11",
+        "label": "제작 사례",
+        "selector": "main > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "제작 사례",
+          "en": "Project References"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text12",
+        "label": "프로젝트 문의",
+        "selector": "main > section:nth-of-type(4) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "프로젝트 문의",
+          "en": "Project Inquiries"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text13",
+        "label": "도면과 프로젝트 개요를 보내주시면 진행 범위를 협의합니다.",
+        "selector": "main > section:nth-of-type(4) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "도면과 프로젝트 개요를 보내주시면 진행 범위를 협의합니다.",
+          "en": "Send your drawings and project outline to discuss the scope."
+        }
+      }
+    ],
+    "images": [
+      {
+        "_type": "pageImage",
+        "_key": "image0",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "가니쉬 트리밍 금형",
+          "en": "Garnish Trimming Mold"
+        },
+        "sourceUrl": "assets/projects/landscape/s12-01.jpg",
+        "display": "cover",
+        "rotation": 0,
+        "label": "가니쉬 트리밍 금형",
+        "selector": "main > section:nth-of-type(1) > figure:nth-of-type(1) > img:nth-of-type(1)"
+      }
+    ]
+  },
+  {
+    "_id": "page-jigs",
+    "_type": "sitePage",
+    "page": "jigs",
+    "title": "지그·기구 설계",
+    "seoTitle": {
+      "_type": "localizedText",
+      "ko": "지그·기구 설계 | 티시에스 TCS",
+      "en": "Fixture & Mechanical Design | TCS"
+    },
+    "seoDescription": {
+      "_type": "localizedText",
+      "ko": "티시에스 TCS — 지그·기구 설계",
+      "en": "TCS — Fixture & Mechanical Design. Total Casting Solution."
+    },
+    "fields": [
+      {
+        "_type": "pageText",
+        "_key": "text0",
+        "label": "지그·기구 설계",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "지그·기구 설계",
+          "en": "Fixture & Mechanical Design"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text1",
+        "label": "리크테스트 지그와 햄 슬라이스 머신 등 회사소개서에 수록된 지그·기구 설…",
+        "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "리크테스트 지그와 햄 슬라이스 머신 등 회사소개서에 수록된 지그·기구 설계 모델을 소개합니다.",
+          "en": "Explore fixture and mechanical design models, including leak test fixtures and a ham slicer."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text2",
+        "label": "리크테스트 지그설계",
+        "selector": "main > section:nth-of-type(1) > figure:nth-of-type(1) > figcaption:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "리크테스트 지그설계",
+          "en": "Leak Test Fixture Design"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text3",
+        "label": "주요 설계 검토 항목",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "주요 설계 검토 항목",
+          "en": "Key Design Considerations"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text4",
+        "label": "실제 진행 순서와 범위는 프로젝트별로 협의합니다.",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "실제 진행 순서와 범위는 프로젝트별로 협의합니다.",
+          "en": "The workflow and scope are agreed for each project."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text5",
+        "label": "사용 목적 확인",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(1) > h3:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "사용 목적 확인",
+          "en": "Application Review"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text6",
+        "label": "대상 제품과 지그·기구의 사용 목적을 확인합니다.",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(1) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "대상 제품과 지그·기구의 사용 목적을 확인합니다.",
+          "en": "Review the target component and the intended fixture or mechanism application."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text7",
+        "label": "구조·배치 검토",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(2) > h3:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "구조·배치 검토",
+          "en": "Structure & Layout"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text8",
+        "label": "작업 목적에 맞춰 구성 부품과 배치를 검토합니다.",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(2) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "작업 목적에 맞춰 구성 부품과 배치를 검토합니다.",
+          "en": "Review component structure and arrangement for the intended task."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text9",
+        "label": "3D 모델 설계",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(3) > h3:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "3D 모델 설계",
+          "en": "3D Design"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text10",
+        "label": "협의한 요구사항을 바탕으로 설계 모델을 구체화합니다.",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(3) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "협의한 요구사항을 바탕으로 설계 모델을 구체화합니다.",
+          "en": "Develop the design model based on the agreed requirements."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text11",
+        "label": "제작 사례",
+        "selector": "main > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "제작 사례",
+          "en": "Project References"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text12",
+        "label": "프로젝트 문의",
+        "selector": "main > section:nth-of-type(4) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "프로젝트 문의",
+          "en": "Project Inquiries"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text13",
+        "label": "도면과 프로젝트 개요를 보내주시면 진행 범위를 협의합니다.",
+        "selector": "main > section:nth-of-type(4) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "도면과 프로젝트 개요를 보내주시면 진행 범위를 협의합니다.",
+          "en": "Send your drawings and project outline to discuss the scope."
+        }
+      }
+    ],
+    "images": [
+      {
+        "_type": "pageImage",
+        "_key": "image0",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "리크테스트 지그설계",
+          "en": "Leak Test Fixture Design"
+        },
+        "sourceUrl": "assets/projects/transparent/s08-01.webp",
+        "display": "contain",
+        "rotation": 0,
+        "label": "리크테스트 지그설계",
+        "selector": "main > section:nth-of-type(1) > figure:nth-of-type(1) > img:nth-of-type(1)"
+      }
+    ]
+  },
+  {
+    "_id": "page-projects",
+    "_type": "sitePage",
+    "page": "projects",
+    "title": "제작사례",
+    "seoTitle": {
+      "_type": "localizedText",
+      "ko": "제작사례 | 티시에스 TCS",
+      "en": "Project References | TCS"
+    },
+    "seoDescription": {
+      "_type": "localizedText",
+      "ko": "티시에스 TCS — 제작사례",
+      "en": "TCS — Project References. Total Casting Solution."
+    },
+    "fields": [
+      {
+        "_type": "pageText",
+        "_key": "text0",
+        "label": "제작사례",
+        "selector": "main > div:nth-of-type(2) > h1:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "제작사례",
+          "en": "Project References"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text1",
+        "label": "금형 종류와 설계 분야별 실제 작업 사진 및 모델을 확인하세요.",
+        "selector": "main > div:nth-of-type(2) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "금형 종류와 설계 분야별 실제 작업 사진 및 모델을 확인하세요.",
+          "en": "Explore photographs and models by mold type and design discipline."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text2",
+        "label": "프로젝트 문의",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "프로젝트 문의",
+          "en": "Project Inquiries"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text3",
+        "label": "도면과 프로젝트 개요를 보내주시면 진행 범위를 협의합니다.",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "도면과 프로젝트 개요를 보내주시면 진행 범위를 협의합니다.",
+          "en": "Send your drawings and project outline to discuss the scope."
+        }
+      }
+    ],
+    "images": []
+  },
+  {
+    "_id": "page-equipment",
+    "_type": "sitePage",
+    "page": "equipment",
+    "title": "보유 장비",
+    "seoTitle": {
+      "_type": "localizedText",
+      "ko": "보유 장비 | 티시에스 TCS",
+      "en": "Equipment & Software | TCS"
+    },
+    "seoDescription": {
+      "_type": "localizedText",
+      "ko": "티시에스 TCS — 보유 장비",
+      "en": "TCS — Equipment & Software. Total Casting Solution."
+    },
+    "fields": [
+      {
+        "_type": "pageText",
+        "_key": "text0",
+        "label": "보유 장비",
+        "selector": "main > div:nth-of-type(2) > h1:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "보유 장비",
+          "en": "Equipment & Software"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text1",
+        "label": "회사소개서에 기재된 가공설비와 설계 소프트웨어입니다.",
+        "selector": "main > div:nth-of-type(2) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "회사소개서에 기재된 가공설비와 설계 소프트웨어입니다.",
+          "en": "Machinery and design software listed in our company profile."
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text2",
+        "label": "가공설비",
+        "selector": "main > section:nth-of-type(1) > h2:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "가공설비",
+          "en": "Machinery"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text3",
+        "label": "CAD / CAM",
+        "selector": "main > section:nth-of-type(1) > h2:nth-of-type(2)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "CAD / CAM",
+          "en": "CAD / CAM"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text4",
+        "label": "프로젝트 문의",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(1) > h2:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "프로젝트 문의",
+          "en": "Project Inquiries"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text5",
+        "label": "도면과 프로젝트 개요를 보내주시면 진행 범위를 협의합니다.",
+        "selector": "main > section:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "도면과 프로젝트 개요를 보내주시면 진행 범위를 협의합니다.",
+          "en": "Send your drawings and project outline to discuss the scope."
+        }
+      }
+    ],
+    "images": []
+  },
+  {
+    "_id": "equipment",
+    "_type": "equipment",
+    "title": "보유 장비",
+    "rows": [
+      {
+        "_type": "equipmentRow",
+        "_key": "row0",
+        "columns": [
+          {
+            "_type": "localizedText",
+            "_key": "col0",
+            "ko": "CNC 밀링",
+            "en": "CNC Milling Machine"
+          },
+          {
+            "_type": "localizedText",
+            "_key": "col1",
+            "ko": "8.5호",
+            "en": "No. 8.5"
+          },
+          {
+            "_type": "localizedText",
+            "_key": "col2",
+            "ko": "화천",
+            "en": "Hwacheon"
+          },
+          {
+            "_type": "localizedText",
+            "_key": "col3",
+            "ko": "2",
+            "en": "2"
+          }
+        ]
+      },
+      {
+        "_type": "equipmentRow",
+        "_key": "row1",
+        "columns": [
+          {
+            "_type": "localizedText",
+            "_key": "col0",
+            "ko": "범용밀링",
+            "en": "Universal Milling Machine"
+          },
+          {
+            "_type": "localizedText",
+            "_key": "col1",
+            "ko": "5호",
+            "en": "No. 5"
+          },
+          {
+            "_type": "localizedText",
+            "_key": "col2",
+            "ko": "기흥",
+            "en": "KIHEUNG"
+          },
+          {
+            "_type": "localizedText",
+            "_key": "col3",
+            "ko": "1",
+            "en": "1"
+          }
+        ]
+      },
+      {
+        "_type": "equipmentRow",
+        "_key": "row2",
+        "columns": [
+          {
+            "_type": "localizedText",
+            "_key": "col0",
+            "ko": "범용밀링",
+            "en": "Universal Milling Machine"
+          },
+          {
+            "_type": "localizedText",
+            "_key": "col1",
+            "ko": "2호",
+            "en": "No. 2"
+          },
+          {
+            "_type": "localizedText",
+            "_key": "col2",
+            "ko": "화천",
+            "en": "Hwacheon"
+          },
+          {
+            "_type": "localizedText",
+            "_key": "col3",
+            "ko": "1",
+            "en": "1"
+          }
+        ]
+      },
+      {
+        "_type": "equipmentRow",
+        "_key": "row3",
+        "columns": [
+          {
+            "_type": "localizedText",
+            "_key": "col0",
+            "ko": "레디얼",
+            "en": "Radial Drilling Machine"
+          },
+          {
+            "_type": "localizedText",
+            "_key": "col1",
+            "ko": "1800",
+            "en": "1800"
+          },
+          {
+            "_type": "localizedText",
+            "_key": "col2",
+            "ko": "두산",
+            "en": "Doosan"
+          },
+          {
+            "_type": "localizedText",
+            "_key": "col3",
+            "ko": "1",
+            "en": "1"
+          }
+        ]
+      },
+      {
+        "_type": "equipmentRow",
+        "_key": "row4",
+        "columns": [
+          {
+            "_type": "localizedText",
+            "_key": "col0",
+            "ko": "선반",
+            "en": "Lathe"
+          },
+          {
+            "_type": "localizedText",
+            "_key": "col1",
+            "ko": "300",
+            "en": "300"
+          },
+          {
+            "_type": "localizedText",
+            "_key": "col2",
+            "ko": "화천",
+            "en": "Hwacheon"
+          },
+          {
+            "_type": "localizedText",
+            "_key": "col3",
+            "ko": "1",
+            "en": "1"
+          }
+        ]
+      }
+    ],
+    "software": [
+      {
+        "_type": "softwareRow",
+        "_key": "soft0",
+        "name": "NX 2022",
+        "detail": {
+          "_type": "localizedText",
+          "ko": "보유 수량 1",
+          "en": "1 license listed"
+        }
+      },
+      {
+        "_type": "softwareRow",
+        "_key": "soft1",
+        "name": "AutoCAD",
+        "detail": {
+          "_type": "localizedText",
+          "ko": "보유 수량 2",
+          "en": "2 licenses listed"
+        }
+      }
+    ]
+  },
+  {
+    "_id": "page-clients",
+    "_type": "sitePage",
+    "page": "clients",
+    "title": "주요 고객사",
+    "seoTitle": {
+      "_type": "localizedText",
+      "ko": "주요 고객사 | 티시에스 TCS",
+      "en": "Clients | TCS"
+    },
+    "seoDescription": {
+      "_type": "localizedText",
+      "ko": "티시에스 TCS의 주요 고객사와 홈페이지 및 위치 안내",
+      "en": "TCS — Clients. Total Casting Solution."
+    },
+    "fields": [
+      {
+        "_type": "pageText",
+        "_key": "text0",
+        "label": "주요 고객사",
+        "selector": "main > div:nth-of-type(2) > h1:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "주요 고객사",
+          "en": "Clients"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text1",
+        "label": "고객사 이름을 선택하면 홈페이지 또는 Google 지도가 새 창에서 열립…",
+        "selector": "main > div:nth-of-type(2) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "고객사 이름을 선택하면 홈페이지 또는 Google 지도가 새 창에서 열립니다.",
+          "en": "Select a client to open its website or Google Maps in a new window."
+        }
+      }
+    ],
+    "images": []
+  },
+  {
+    "_id": "page-contact",
+    "_type": "sitePage",
+    "page": "contact",
+    "title": "문의하기",
+    "seoTitle": {
+      "_type": "localizedText",
+      "ko": "문의하기 | 티시에스 TCS",
+      "en": "Contact Us | TCS"
+    },
+    "seoDescription": {
+      "_type": "localizedText",
+      "ko": "티시에스 TCS — 문의하기",
+      "en": "TCS — Contact Us. Total Casting Solution."
+    },
+    "fields": [
+      {
+        "_type": "pageText",
+        "_key": "text0",
+        "label": "문의하기",
+        "selector": "main > div:nth-of-type(2) > h1:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "문의하기",
+          "en": "Contact Us"
+        }
+      },
+      {
+        "_type": "pageText",
+        "_key": "text1",
+        "label": "프로젝트 문의와 사업장 위치를 안내합니다.",
+        "selector": "main > div:nth-of-type(2) > p:nth-of-type(1)",
+        "value": {
+          "_type": "localizedText",
+          "ko": "프로젝트 문의와 사업장 위치를 안내합니다.",
+          "en": "Project inquiries and directions to our workplace."
+        }
+      }
+    ],
+    "images": []
+  },
+  {
+    "_id": "project-01",
+    "_type": "project",
+    "title": {
+      "_type": "localizedText",
+      "ko": "햄 슬라이스 머신",
+      "en": "Ham Slicer"
+    },
+    "kind": {
+      "_type": "localizedText",
+      "ko": "기구 설계 모델",
+      "en": "Mechanical design model"
+    },
+    "category": "jigs",
+    "order": 1,
+    "featured": true,
+    "photos": [
+      {
+        "_type": "projectPhoto",
+        "_key": "photo0",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "햄 슬라이스 머신",
+          "en": "Ham Slicer"
+        },
+        "sourceUrl": "assets/projects/transparent/s06-01.webp",
+        "display": "contain",
+        "rotation": 0
+      }
+    ]
+  },
+  {
+    "_id": "project-02",
+    "_type": "project",
+    "title": {
+      "_type": "localizedText",
+      "ko": "방산 장비",
+      "en": "Defense Equipment"
+    },
+    "kind": {
+      "_type": "localizedText",
+      "ko": "설계 모델",
+      "en": "Design models"
+    },
+    "category": "jigs",
+    "order": 2,
+    "featured": false,
+    "photos": [
+      {
+        "_type": "projectPhoto",
+        "_key": "photo0",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "방산 장비",
+          "en": "Defense Equipment"
+        },
+        "sourceUrl": "assets/projects/transparent/s06-02.webp",
+        "display": "contain",
+        "rotation": 0
+      }
+    ]
+  },
+  {
+    "_id": "project-03",
+    "_type": "project",
+    "title": {
+      "_type": "localizedText",
+      "ko": "상용차 브레이크드럼",
+      "en": "Commercial Vehicle Brake Drum"
+    },
+    "kind": {
+      "_type": "localizedText",
+      "ko": "금형 사진",
+      "en": "Mold photographs"
+    },
+    "category": "casting",
+    "order": 3,
+    "featured": false,
+    "photos": [
+      {
+        "_type": "projectPhoto",
+        "_key": "photo0",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "상용차 브레이크드럼",
+          "en": "Commercial Vehicle Brake Drum"
+        },
+        "sourceUrl": "assets/projects/s06-03.jpg",
+        "display": "cover",
+        "rotation": 0
+      },
+      {
+        "_type": "projectPhoto",
+        "_key": "photo1",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "상용차 브레이크드럼",
+          "en": "Commercial Vehicle Brake Drum"
+        },
+        "sourceUrl": "assets/projects/s06-04.jpg",
+        "display": "cover",
+        "rotation": 0
+      }
+    ]
+  },
+  {
+    "_id": "project-04",
+    "_type": "project",
+    "title": {
+      "_type": "localizedText",
+      "ko": "발포금형",
+      "en": "Foam Mold"
+    },
+    "kind": {
+      "_type": "localizedText",
+      "ko": "설계 모델",
+      "en": "Design models"
+    },
+    "category": "foam-trimming",
+    "order": 4,
+    "featured": false,
+    "photos": [
+      {
+        "_type": "projectPhoto",
+        "_key": "photo0",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "발포금형",
+          "en": "Foam Mold"
+        },
+        "sourceUrl": "assets/projects/transparent/s06-05.webp",
+        "display": "contain",
+        "rotation": 0
+      },
+      {
+        "_type": "projectPhoto",
+        "_key": "photo1",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "발포금형",
+          "en": "Foam Mold"
+        },
+        "sourceUrl": "assets/projects/transparent/s06-06.webp",
+        "display": "contain",
+        "rotation": 0
+      }
+    ]
+  },
+  {
+    "_id": "project-05",
+    "_type": "project",
+    "title": {
+      "_type": "localizedText",
+      "ko": "휠 부품 중력주조",
+      "en": "Wheel Component Gravity Casting"
+    },
+    "kind": {
+      "_type": "localizedText",
+      "ko": "제작 사례",
+      "en": "Project References"
+    },
+    "category": "casting",
+    "order": 5,
+    "featured": false,
+    "photos": [
+      {
+        "_type": "projectPhoto",
+        "_key": "photo0",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "휠 부품 중력주조",
+          "en": "Wheel Component Gravity Casting"
+        },
+        "sourceUrl": "assets/projects/s07-01.jpg",
+        "display": "cover",
+        "rotation": 0
+      }
+    ]
+  },
+  {
+    "_id": "project-06",
+    "_type": "project",
+    "title": {
+      "_type": "localizedText",
+      "ko": "의료장비 ARM 중력주조금형",
+      "en": "Medical Equipment Arm Gravity Casting Mold"
+    },
+    "kind": {
+      "_type": "localizedText",
+      "ko": "금형 사진",
+      "en": "Mold photographs"
+    },
+    "category": "casting",
+    "order": 6,
+    "featured": false,
+    "photos": [
+      {
+        "_type": "projectPhoto",
+        "_key": "photo0",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "의료장비 ARM 중력주조금형",
+          "en": "Medical Equipment Arm Gravity Casting Mold"
+        },
+        "sourceUrl": "assets/projects/landscape/s07-02.jpg",
+        "display": "cover",
+        "rotation": 0
+      }
+    ]
+  },
+  {
+    "_id": "project-07",
+    "_type": "project",
+    "title": {
+      "_type": "localizedText",
+      "ko": "플라이휠 주조금형",
+      "en": "Flywheel Casting Mold"
+    },
+    "kind": {
+      "_type": "localizedText",
+      "ko": "금형 사진",
+      "en": "Mold photographs"
+    },
+    "category": "casting",
+    "order": 7,
+    "featured": false,
+    "photos": [
+      {
+        "_type": "projectPhoto",
+        "_key": "photo0",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "플라이휠 주조금형",
+          "en": "Flywheel Casting Mold"
+        },
+        "sourceUrl": "assets/projects/landscape/s07-03.jpg",
+        "display": "cover",
+        "rotation": 0
+      },
+      {
+        "_type": "projectPhoto",
+        "_key": "photo1",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "플라이휠 주조금형",
+          "en": "Flywheel Casting Mold"
+        },
+        "sourceUrl": "assets/projects/landscape/s07-04.jpg",
+        "display": "cover",
+        "rotation": 0
+      }
+    ]
+  },
+  {
+    "_id": "project-08",
+    "_type": "project",
+    "title": {
+      "_type": "localizedText",
+      "ko": "리크테스트 지그설계",
+      "en": "Leak Test Fixture Design"
+    },
+    "kind": {
+      "_type": "localizedText",
+      "ko": "설계 모델",
+      "en": "Design models"
+    },
+    "category": "jigs",
+    "order": 8,
+    "featured": false,
+    "photos": [
+      {
+        "_type": "projectPhoto",
+        "_key": "photo0",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "리크테스트 지그설계",
+          "en": "Leak Test Fixture Design"
+        },
+        "sourceUrl": "assets/projects/transparent/s08-01.webp",
+        "display": "contain",
+        "rotation": 0
+      },
+      {
+        "_type": "projectPhoto",
+        "_key": "photo1",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "리크테스트 지그설계",
+          "en": "Leak Test Fixture Design"
+        },
+        "sourceUrl": "assets/projects/landscape/s08-02.jpg",
+        "display": "cover",
+        "rotation": 0
+      }
+    ]
+  },
+  {
+    "_id": "project-09",
+    "_type": "project",
+    "title": {
+      "_type": "localizedText",
+      "ko": "펌프케이싱 목형설계",
+      "en": "Pump Casing Pattern Design"
+    },
+    "kind": {
+      "_type": "localizedText",
+      "ko": "설계 모델",
+      "en": "Design models"
+    },
+    "category": "patterns",
+    "order": 9,
+    "featured": true,
+    "photos": [
+      {
+        "_type": "projectPhoto",
+        "_key": "photo0",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "펌프케이싱 목형설계",
+          "en": "Pump Casing Pattern Design"
+        },
+        "sourceUrl": "assets/projects/s08-03.jpg",
+        "display": "cover",
+        "rotation": 0
+      },
+      {
+        "_type": "projectPhoto",
+        "_key": "photo1",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "펌프케이싱 목형설계",
+          "en": "Pump Casing Pattern Design"
+        },
+        "sourceUrl": "assets/projects/transparent/s08-04.webp",
+        "display": "contain",
+        "rotation": 0
+      }
+    ]
+  },
+  {
+    "_id": "project-10",
+    "_type": "project",
+    "title": {
+      "_type": "localizedText",
+      "ko": "오토미션 밸브바디 주조금형",
+      "en": "Automatic Transmission Valve Body Mold"
+    },
+    "kind": {
+      "_type": "localizedText",
+      "ko": "금형·설계 사례",
+      "en": "Mold and design references"
+    },
+    "category": "casting",
+    "order": 10,
+    "featured": true,
+    "photos": [
+      {
+        "_type": "projectPhoto",
+        "_key": "photo0",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "오토미션 밸브바디 주조금형",
+          "en": "Automatic Transmission Valve Body Mold"
+        },
+        "sourceUrl": "assets/projects/transparent/s09-01.webp",
+        "display": "contain",
+        "rotation": 0
+      },
+      {
+        "_type": "projectPhoto",
+        "_key": "photo1",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "오토미션 밸브바디 주조금형",
+          "en": "Automatic Transmission Valve Body Mold"
+        },
+        "sourceUrl": "assets/projects/transparent/s09-02.webp",
+        "display": "contain",
+        "rotation": 0
+      },
+      {
+        "_type": "projectPhoto",
+        "_key": "photo2",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "오토미션 밸브바디 주조금형",
+          "en": "Automatic Transmission Valve Body Mold"
+        },
+        "sourceUrl": "assets/projects/transparent/s09-03.webp",
+        "display": "contain",
+        "rotation": 0
+      },
+      {
+        "_type": "projectPhoto",
+        "_key": "photo3",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "오토미션 밸브바디 주조금형",
+          "en": "Automatic Transmission Valve Body Mold"
+        },
+        "sourceUrl": "assets/projects/transparent/s09-04.webp",
+        "display": "contain",
+        "rotation": 0
+      },
+      {
+        "_type": "projectPhoto",
+        "_key": "photo4",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "오토미션 밸브바디 주조금형",
+          "en": "Automatic Transmission Valve Body Mold"
+        },
+        "sourceUrl": "assets/projects/s09-05.jpg",
+        "display": "cover",
+        "rotation": 0
+      },
+      {
+        "_type": "projectPhoto",
+        "_key": "photo5",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "오토미션 밸브바디 주조금형",
+          "en": "Automatic Transmission Valve Body Mold"
+        },
+        "sourceUrl": "assets/projects/s09-06.jpg",
+        "display": "cover",
+        "rotation": 0
+      }
+    ]
+  },
+  {
+    "_id": "project-11",
+    "_type": "project",
+    "title": {
+      "_type": "localizedText",
+      "ko": "FCD 주물용 금형",
+      "en": "Molds for Ductile Iron Castings"
+    },
+    "kind": {
+      "_type": "localizedText",
+      "ko": "금형 사진",
+      "en": "Mold photographs"
+    },
+    "category": "casting",
+    "order": 11,
+    "featured": false,
+    "photos": [
+      {
+        "_type": "projectPhoto",
+        "_key": "photo0",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "FCD 주물용 금형",
+          "en": "Molds for Ductile Iron Castings"
+        },
+        "sourceUrl": "assets/projects/s10-01.jpg",
+        "display": "cover",
+        "rotation": 0
+      },
+      {
+        "_type": "projectPhoto",
+        "_key": "photo1",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "FCD 주물용 금형",
+          "en": "Molds for Ductile Iron Castings"
+        },
+        "sourceUrl": "assets/projects/s10-02.jpg",
+        "display": "cover",
+        "rotation": 0
+      }
+    ]
+  },
+  {
+    "_id": "project-12",
+    "_type": "project",
+    "title": {
+      "_type": "localizedText",
+      "ko": "샌드 3D 프린트 활용 디자인",
+      "en": "Design Using 3D Sand Printing"
+    },
+    "kind": {
+      "_type": "localizedText",
+      "ko": "주형·설계 사례",
+      "en": "Sand mold and design references"
+    },
+    "category": "patterns",
+    "order": 12,
+    "featured": false,
+    "photos": [
+      {
+        "_type": "projectPhoto",
+        "_key": "photo0",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "샌드 3D 프린트 활용 디자인",
+          "en": "Design Using 3D Sand Printing"
+        },
+        "sourceUrl": "assets/projects/landscape/s11-01.jpg",
+        "display": "cover",
+        "rotation": 0
+      },
+      {
+        "_type": "projectPhoto",
+        "_key": "photo1",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "샌드 3D 프린트 활용 디자인",
+          "en": "Design Using 3D Sand Printing"
+        },
+        "sourceUrl": "assets/projects/landscape/s11-02.jpg",
+        "display": "cover",
+        "rotation": 0
+      },
+      {
+        "_type": "projectPhoto",
+        "_key": "photo2",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "샌드 3D 프린트 활용 디자인",
+          "en": "Design Using 3D Sand Printing"
+        },
+        "sourceUrl": "assets/projects/landscape/s11-03.jpg",
+        "display": "cover",
+        "rotation": 0
+      },
+      {
+        "_type": "projectPhoto",
+        "_key": "photo3",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "샌드 3D 프린트 활용 디자인",
+          "en": "Design Using 3D Sand Printing"
+        },
+        "sourceUrl": "assets/projects/transparent/s11-04.webp",
+        "display": "contain",
+        "rotation": 0
+      }
+    ]
+  },
+  {
+    "_id": "project-13",
+    "_type": "project",
+    "title": {
+      "_type": "localizedText",
+      "ko": "가니쉬 트리밍 금형",
+      "en": "Garnish Trimming Mold"
+    },
+    "kind": {
+      "_type": "localizedText",
+      "ko": "금형 사진",
+      "en": "Mold photographs"
+    },
+    "category": "foam-trimming",
+    "order": 13,
+    "featured": false,
+    "photos": [
+      {
+        "_type": "projectPhoto",
+        "_key": "photo0",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "가니쉬 트리밍 금형",
+          "en": "Garnish Trimming Mold"
+        },
+        "sourceUrl": "assets/projects/landscape/s12-01.jpg",
+        "display": "cover",
+        "rotation": 0
+      },
+      {
+        "_type": "projectPhoto",
+        "_key": "photo1",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "가니쉬 트리밍 금형",
+          "en": "Garnish Trimming Mold"
+        },
+        "sourceUrl": "assets/projects/s12-02.jpg",
+        "display": "cover",
+        "rotation": 0
+      },
+      {
+        "_type": "projectPhoto",
+        "_key": "photo2",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "가니쉬 트리밍 금형",
+          "en": "Garnish Trimming Mold"
+        },
+        "sourceUrl": "assets/projects/landscape/s12-03.jpg",
+        "display": "cover",
+        "rotation": 0
+      },
+      {
+        "_type": "projectPhoto",
+        "_key": "photo3",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "가니쉬 트리밍 금형",
+          "en": "Garnish Trimming Mold"
+        },
+        "sourceUrl": "assets/projects/landscape/s12-04.jpg",
+        "display": "cover",
+        "rotation": 0
+      },
+      {
+        "_type": "projectPhoto",
+        "_key": "photo4",
+        "alt": {
+          "_type": "localizedText",
+          "ko": "가니쉬 트리밍 금형",
+          "en": "Garnish Trimming Mold"
+        },
+        "sourceUrl": "assets/projects/transparent/s12-05.webp",
+        "display": "contain",
+        "rotation": 0
+      }
+    ]
+  },
+  {
+    "_id": "client-1",
+    "_type": "client",
+    "name": {
+      "_type": "localizedText",
+      "ko": "진흥주물",
+      "en": "JIN HEUNG"
+    },
+    "order": 1,
+    "url": "http://www.jhfoundry.co.kr/shop/home.php",
+    "linkType": "website",
+    "sourceUrl": "assets/partners/jinheung.png",
+    "showOnHome": true
+  },
+  {
+    "_id": "client-2",
+    "_type": "client",
+    "name": {
+      "_type": "localizedText",
+      "ko": "삼창주철공업",
+      "en": "SAMCHANG"
+    },
+    "order": 2,
+    "url": "http://scfcasting.com/",
+    "linkType": "website",
+    "sourceUrl": "assets/partners/samchang.png",
+    "showOnHome": true
+  },
+  {
+    "_id": "client-3",
+    "_type": "client",
+    "name": {
+      "_type": "localizedText",
+      "ko": "한국주철관공업",
+      "en": "KCIP"
+    },
+    "order": 3,
+    "url": "https://www.kcip.co.kr/",
+    "linkType": "website",
+    "sourceUrl": "assets/partners/kcip.png",
+    "showOnHome": true
+  },
+  {
+    "_id": "client-4",
+    "_type": "client",
+    "name": {
+      "_type": "localizedText",
+      "ko": "대한솔루션",
+      "en": "DAEHAN SOLUTION"
+    },
+    "order": 4,
+    "url": "http://www.dhsol.com/",
+    "linkType": "website",
+    "sourceUrl": "assets/partners/daehan.png",
+    "showOnHome": true
+  },
+  {
+    "_id": "client-5",
+    "_type": "client",
+    "name": {
+      "_type": "localizedText",
+      "ko": "카프리텍",
+      "en": "CARPRITEC"
+    },
+    "order": 5,
+    "url": "https://csrbrake.com/",
+    "linkType": "website",
+    "sourceUrl": "assets/partners/carpritec.png",
+    "showOnHome": true
+  },
+  {
+    "_id": "client-6",
+    "_type": "client",
+    "name": {
+      "_type": "localizedText",
+      "ko": "대림테크",
+      "en": "DAELIM TECH"
+    },
+    "order": 6,
+    "url": "https://www.google.com/maps/search/?api=1&query=%EB%8C%80%EB%A6%BC%ED%85%8C%ED%81%AC%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%95%84%EC%82%B0%EC%8B%9C%20%EB%91%94%ED%8F%AC%EB%A9%B4%20%EC%9D%B4%ED%99%94%EC%84%9C%EA%B8%B8%2073-21",
+    "linkType": "map",
+    "sourceUrl": "",
+    "showOnHome": false
+  },
+  {
+    "_id": "client-7",
+    "_type": "client",
+    "name": {
+      "_type": "localizedText",
+      "ko": "두손산업",
+      "en": "DOOSON INDUSTRY"
+    },
+    "order": 7,
+    "url": "https://www.google.com/maps/search/?api=1&query=%EB%91%90%EC%86%90%EC%82%B0%EC%97%85%20%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84%20%EC%95%84%EC%82%B0%EC%8B%9C%20%EC%9D%8C%EB%B4%89%EB%A9%B4%20%EC%97%B0%EC%95%94%EC%82%B0%EB%A1%9C%20194",
+    "linkType": "map",
+    "sourceUrl": "",
+    "showOnHome": false
+  },
+  {
+    "_id": "client-8",
+    "_type": "client",
+    "name": {
+      "_type": "localizedText",
+      "ko": "세종알로이",
+      "en": "SEJONG ALLOY"
+    },
+    "order": 8,
+    "url": "https://www.google.com/maps/search/?api=1&query=%EC%84%B8%EC%A2%85%EC%95%8C%EB%A1%9C%EC%9D%B4%20%EA%B2%BD%EA%B8%B0%EB%8F%84%20%ED%99%94%EC%84%B1%EC%8B%9C%20%EC%96%91%EA%B0%90%EB%A9%B4%20%EC%82%AC%EA%B2%A9%EC%9E%A5%EA%B8%B8%2095",
+    "linkType": "map",
+    "sourceUrl": "",
+    "showOnHome": false
+  },
+  {
+    "_id": "company",
+    "_type": "company",
+    "title": "회사정보",
+    "email": "tcs2021@daum.net",
+    "phone": "031-996-2044",
+    "fax": "031-996-2045",
+    "address": {
+      "_type": "localizedText",
+      "ko": "경기도 김포시 대곶면\n대곶로 246-40 티시에스",
+      "en": "Daegot-myeon, Gimpo-si, Gyeonggi-do\nTCS, 246-40 Daegot-ro"
+    },
+    "mapQuery": "경기도 김포시 대곶면 대곶로 246-40 티시에스",
+    "inquiry": {
+      "_type": "localizedText",
+      "ko": "프로젝트 개요와 보유 도면을 이메일로 보내주세요.\n구체적인 진행 범위는 상담을 통해 확인합니다.",
+      "en": "Please email your project outline and available drawings.\nWe will discuss and confirm the scope of your project."
+    },
+    "footer": {
+      "_type": "localizedText",
+      "ko": "티시에스 · 대표 박성서\n사업자등록번호 465-79-00353\n주소: 경기도 김포시 대곶면 대곶로 246-40 티시에스",
+      "en": "TCS · Representative: Park Seong-seo\nBusiness Registration No. 465-79-00353\nAddress: TCS, 246-40 Daegot-ro, Daegot-myeon, Gimpo-si, Gyeonggi-do, South Korea"
+    }
+  }
+]

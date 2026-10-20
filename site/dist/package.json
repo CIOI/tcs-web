@@ -1,0 +1,25 @@
+{
+  "name": "tcs-content-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node cms/build.mjs",
+    "studio": "sanity dev --host 127.0.0.1 --port 3333",
+    "studio:build": "SANITY_STUDIO_BASEPATH=/admin sanity build public/admin --yes",
+    "test": "node --test cms/tests/*.test.mjs",
+    "cms:import": "node cms/import.mjs"
+  },
+  "engines": {
+    "node": ">=22.12"
+  },
+  "dependencies": {
+    "@sanity/client": "8.10.0",
+    "@sanity/image-url": "2.1.1",
+    "@sanity/locale-ko-kr": "1.1.40",
+    "linkedom": "0.18.13",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "sanity": "6.20.0",
+    "styled-components": "6.6.0"
+  }
+}
